@@ -43,13 +43,14 @@ Vector data consists of points, lines and polygons, and is most commonly used to
     </item>
     
     <item>
-      <title>Geocoding spreadsheets</title>
-      <link>https://ssimpkin.github.io/dhsite2018/geocoding-spreadsheets/</link>
+      <title>Georeferencing maps</title>
+      <link>https://ssimpkin.github.io/dhsite2018/georeferencing-maps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ssimpkin.github.io/dhsite2018/geocoding-spreadsheets/</guid>
-      <description>Overview Geographic clues can be hidden in all kinds of documents. In this exercise, we&amp;rsquo;ll collect addresses from the 1890-1891 Ottawa Directory. Library and Archives Canada has digitized 95 microfiche versions of pre-1901 Canadian directories. These are useful resources for researching where people and businesses were located (and the ads are pretty cool too). The following exercise will require a Google account.
-Data files  Google Sheet with template PDF of the Ottawa Directory from 1890-1891  Installing the geocoder add-on Adding data to the table Make a copy of the Google Sheets template by clicking File &amp;gt; Make a copy.</description>
+      <guid>https://ssimpkin.github.io/dhsite2018/georeferencing-maps/</guid>
+      <description>Overview Existing maps, floorplans and imagery are a useful source of data. They can provide information about changes over time, landcover, settlement patterns, and more.
+Georeferencing is the process of assigning real-world coordinates to each pixel of the raster. To do this, we’ll use the Ottawa roads file that we downloaded from the Ottawa open data website.
+Data files  1901 Fire Insurance Plan of Ottawa. Each person has been assigned a page of the 1901 Fire Insurance Plan of Ottawa.</description>
     </item>
     
     <item>
@@ -65,14 +66,13 @@ While creating the new shapefile, we’ll include several fields so that we coll
     </item>
     
     <item>
-      <title>Georeferencing maps</title>
-      <link>https://ssimpkin.github.io/dhsite2018/georeferencing-maps/</link>
+      <title>Geocoding spreadsheets</title>
+      <link>https://ssimpkin.github.io/dhsite2018/geocoding-spreadsheets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ssimpkin.github.io/dhsite2018/georeferencing-maps/</guid>
-      <description>Overview Existing maps, floorplans and imagery are a useful source of data. They can provide information about changes over time, landcover, settlement patterns, and more.
-Georeferencing is the process of assigning real-world coordinates to each pixel of the raster. To do this, we’ll use the Ottawa roads file that we downloaded from the Ottawa open data website.
-Data files  1901 Fire Insurance Plan of Ottawa. Each person has been assigned a page of the 1901 Fire Insurance Plan of Ottawa.</description>
+      <guid>https://ssimpkin.github.io/dhsite2018/geocoding-spreadsheets/</guid>
+      <description>Overview Geographic clues can be hidden in all kinds of documents. In this exercise, we&amp;rsquo;ll collect addresses from the 1890-1891 Ottawa Directory. Library and Archives Canada has digitized 95 microfiche versions of pre-1901 Canadian directories. These are useful resources for researching where people and businesses were located (and the ads are pretty cool too). The following exercise will require a Google account.
+Data files  Google Sheet with template PDF of the Ottawa Directory from 1890-1891  Installing the geocoder add-on Adding data to the table Make a copy of the Google Sheets template by clicking File &amp;gt; Make a copy.</description>
     </item>
     
     <item>
