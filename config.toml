@@ -1,0 +1,88 @@
+baseurl = "https://ssimpkin.github.io/dhsite2018/"
+languageCode = "en-us"
+title = "Introduction to mapping and spatial methods for the humanities"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+publishDir = "public"
+
+[params]
+	# General information
+	author = "Sarah Simpkin and Joel Rivard"
+	description = "Tutorial designed for DHSITE 2018 in Ottawa."
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	logo = "images/logo.jpg"
+
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "indigo"
+    	accent  = "amber"
+
+    [params.font]
+    	text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+
+[social]
+	twitter = ""
+	github  = ""
+	email   = ""
+
+[[menu.main]]
+	name   = "Welcome"
+	url    = "/"
+	weight = 10
+
+[[menu.main]]
+	name   = "Getting started"
+	url    = "getting-started/"
+	weight = 20
+
+[[menu.main]]
+	name   = "Geospatial data"
+	url    = "geospatial-data/"
+	weight = 30
+
+[[menu.main]]
+	name   = "Georeferencing maps"
+	url    = "georeferencing-maps/"
+	weight = 40
+
+[[menu.main]]
+	name   = "Digitizing maps"
+	url    = "digitizing-maps/"
+	weight = 50
+
+
+[[menu.main]]
+	name   = "Geocoding spreadsheet data"
+	url    = "geocoding-spreadsheets/"
+	weight = 60
+
+[[menu.main]]
+	name   = "Joining datasets"
+	url    = "joining-datasets/"
+	weight = 70
+
+[[menu.main]]
+	name   = "Next steps"
+	url    = "next-steps/"
+	weight = 80
+
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true

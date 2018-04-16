@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction to mapping and spatial methods for the humanities</title>
+    <link>https://ssimpkin.github.io/dhsite2018/</link>
+    <description>Recent content on Introduction to mapping and spatial methods for the humanities</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://ssimpkin.github.io/dhsite2018/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://ssimpkin.github.io/dhsite2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ssimpkin.github.io/dhsite2018/</guid>
+      <description>Most things happen somewhere, and mapping can be an effective technique for exploring, analysing, and presenting many types of data. This interactive workshop is designed for researchers who are interested in adding a spatial dimension to their research.
+In this 12-hour workshop, participants will be introduced to Geographic Information Systems (GIS) techniques from a humanist’s perspective. Starting from primary sources, participants will learn how to extract spatial “clues” from many types of primary sources, create and manipulate GIS-friendly data, transform addresses and place names into coordinates and web maps and use georeferencing techniques to bring digitized historical maps into GIS software.</description>
+    </item>
+    
+    <item>
+      <title>Getting started</title>
+      <link>https://ssimpkin.github.io/dhsite2018/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ssimpkin.github.io/dhsite2018/getting-started/</guid>
+      <description>Workshop structure The workshop is divided into four sections.
+In part one, we&amp;rsquo;ll discuss existing humanities GIS projects and the software required to work with geospatial data. We’ll learn more about the properties of geospatial data and some common formats you may encounter. We&amp;rsquo;ll install QGIS, an open-source desktop GIS package that works with Windows, Mac and Linux operating systems.
+In part two, we’ll take a look at how analog maps can be brought into the digital world through georeferencing and digitization.</description>
+    </item>
+    
+    <item>
+      <title>Geospatial data</title>
+      <link>https://ssimpkin.github.io/dhsite2018/geospatial-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ssimpkin.github.io/dhsite2018/geospatial-data/</guid>
+      <description>What is GIS? GIS stands for Geographic Information Systems (or Sciences), and refers to the software and techniques used to view, analyse, create, and modify geographic data. We’ll be using some GIS terminology and techniques for this workshop.
+Common data types GIS data comes in two major types: raster and vector.
+Vector data consists of points, lines and polygons, and is most commonly used to represent discrete objects such as boundary lines, roads, building outlines, points of interest, etc.</description>
+    </item>
+    
+    <item>
+      <title>Geocoding spreadsheets</title>
+      <link>https://ssimpkin.github.io/dhsite2018/geocoding-spreadsheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ssimpkin.github.io/dhsite2018/geocoding-spreadsheets/</guid>
+      <description>Overview Geographic clues can be hidden in all kinds of documents. In this exercise, we&amp;rsquo;ll collect addresses from the 1890-1891 Ottawa Directory. Library and Archives Canada has digitized 95 microfiche versions of pre-1901 Canadian directories. These are useful resources for researching where people and businesses were located (and the ads are pretty cool too). The following exercise will require a Google account.
+Data files  Google Sheet with template PDF of the Ottawa Directory from 1890-1891  Installing the geocoder add-on Adding data to the table Make a copy of the Google Sheets template by clicking File &amp;gt; Make a copy.</description>
+    </item>
+    
+    <item>
+      <title>Digitizing maps</title>
+      <link>https://ssimpkin.github.io/dhsite2018/digitizing-maps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ssimpkin.github.io/dhsite2018/digitizing-maps/</guid>
+      <description>Overview In QGIS, we’ll trace polygons to represent the buildings from the fire insurance plans and add additional attribute information to them in order to enrich our dataset.
+Creating a new shapefile We’ll have to create a blank shapefile and set the appropriate coordinate system. In this case, we’ll set the coordinate system to the same one that we’ve been using thus far, epsg:2951.
+While creating the new shapefile, we’ll include several fields so that we collect different bits of information for each polygon.</description>
+    </item>
+    
+    <item>
+      <title>Georeferencing maps</title>
+      <link>https://ssimpkin.github.io/dhsite2018/georeferencing-maps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ssimpkin.github.io/dhsite2018/georeferencing-maps/</guid>
+      <description>Overview Existing maps, floorplans and imagery are a useful source of data. They can provide information about changes over time, landcover, settlement patterns, and more.
+Georeferencing is the process of assigning real-world coordinates to each pixel of the raster. To do this, we’ll use the Ottawa roads file that we downloaded from the Ottawa open data website.
+Data files  1901 Fire Insurance Plan of Ottawa. Each person has been assigned a page of the 1901 Fire Insurance Plan of Ottawa.</description>
+    </item>
+    
+    <item>
+      <title>Joining datasets</title>
+      <link>https://ssimpkin.github.io/dhsite2018/joining-datasets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ssimpkin.github.io/dhsite2018/joining-datasets/</guid>
+      <description> Overview </description>
+    </item>
+    
+    <item>
+      <title>Next steps</title>
+      <link>https://ssimpkin.github.io/dhsite2018/next-steps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ssimpkin.github.io/dhsite2018/next-steps/</guid>
+      <description> Overview </description>
+    </item>
+    
+  </channel>
+</rss>

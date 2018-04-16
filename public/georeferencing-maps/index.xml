@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Georeferencing-maps on Introduction to mapping and spatial methods for the humanities</title>
+    <link>https://ssimpkin.github.io/dhsite2018/georeferencing-maps/</link>
+    <description>Recent content in Georeferencing-maps on Introduction to mapping and spatial methods for the humanities</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://ssimpkin.github.io/dhsite2018/georeferencing-maps/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Georeferencing maps</title>
+      <link>https://ssimpkin.github.io/dhsite2018/georeferencing-maps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ssimpkin.github.io/dhsite2018/georeferencing-maps/</guid>
+      <description>Overview Existing maps, floorplans and imagery are a useful source of data. They can provide information about changes over time, landcover, settlement patterns, and more.
+Georeferencing is the process of assigning real-world coordinates to each pixel of the raster. To do this, we’ll use the Ottawa roads file that we downloaded from the Ottawa open data website.
+Data files  1901 Fire Insurance Plan of Ottawa. Each person has been assigned a page of the 1901 Fire Insurance Plan of Ottawa.</description>
+    </item>
+    
+  </channel>
+</rss>

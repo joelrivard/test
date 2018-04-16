@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+  
+  
+  
+  
+   <html class="no-js"> 
+
+  <head lang="en-us">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title>Geocoding spreadsheets - Introduction to mapping and spatial methods for the humanities</title>
+    <meta name="generator" content="Hugo 0.20.7" />
+
+    
+    <meta name="description" content="Tutorial designed for DHSITE 2018 in Ottawa.">
+    
+    <link rel="canonical" href="https://ssimpkin.github.io/dhsite2018/geocoding-spreadsheets/">
+    
+    <meta name="author" content="Sarah Simpkin and Joel Rivard">
+    
+
+    <meta property="og:url" content="https://ssimpkin.github.io/dhsite2018/geocoding-spreadsheets/">
+    <meta property="og:title" content="Introduction to mapping and spatial methods for the humanities">
+    <meta property="og:image" content="https://ssimpkin.github.io/dhsite2018/images/logo.jpg">
+    <meta name="apple-mobile-web-app-title" content="Introduction to mapping and spatial methods for the humanities">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://ssimpkin.github.io/dhsite2018/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://ssimpkin.github.io/dhsite2018/images/favicon.ico">
+
+    <style>
+      @font-face {
+        font-family: 'Icon';
+        src: url('https://ssimpkin.github.io/dhsite2018/fonts/icon.eot');
+        src: url('https://ssimpkin.github.io/dhsite2018/fonts/icon.eot')
+               format('embedded-opentype'),
+             url('https://ssimpkin.github.io/dhsite2018/fonts/icon.woff')
+               format('woff'),
+             url('https://ssimpkin.github.io/dhsite2018/fonts/icon.ttf')
+               format('truetype'),
+             url('https://ssimpkin.github.io/dhsite2018/fonts/icon.svg')
+               format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+    <link rel="stylesheet" href="https://ssimpkin.github.io/dhsite2018/stylesheets/application.css">
+    <link rel="stylesheet" href="https://ssimpkin.github.io/dhsite2018/stylesheets/temporary.css">
+    <link rel="stylesheet" href="https://ssimpkin.github.io/dhsite2018/stylesheets/palettes.css">
+    <link rel="stylesheet" href="https://ssimpkin.github.io/dhsite2018/stylesheets/highlight/highlight.css">
+
+    
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu&#43;Mono">
+    <style>
+      body, input {
+        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+      }
+      pre, code {
+        font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+      }
+    </style>
+
+    
+    <script src="https://ssimpkin.github.io/dhsite2018/javascripts/modernizr.js"></script>
+
+    
+
+  </head>
+  <body class="palette-primary-indigo palette-accent-amber">
+
+
+
+
+<div class="backdrop">
+	<div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+	<nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        Geocoding spreadsheets
+      </div>
+    </div>
+
+    
+
+    
+    
+        
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="main">
+	<div class="drawer">
+		<nav aria-label="Navigation">
+  <a href="https://ssimpkin.github.io/dhsite2018/" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="https://ssimpkin.github.io/dhsite2018/images/logo.jpg">
+        </div>
+      
+      <div class="name">
+        <strong>Introduction to mapping and spatial methods for the humanities </strong>
+        
+      </div>
+    </div>
+  </a>
+
+  <div class="scrollable">
+    <div class="wrapper">
+      
+
+      <div class="toc">
+        
+        <ul>
+          
+
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Welcome" href="https://ssimpkin.github.io/dhsite2018/">
+	
+	Welcome
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Getting started" href="https://ssimpkin.github.io/dhsite2018/getting-started/">
+	
+	Getting started
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Geospatial data" href="https://ssimpkin.github.io/dhsite2018/geospatial-data/">
+	
+	Geospatial data
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Georeferencing maps" href="https://ssimpkin.github.io/dhsite2018/georeferencing-maps/">
+	
+	Georeferencing maps
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Digitizing maps" href="https://ssimpkin.github.io/dhsite2018/digitizing-maps/">
+	
+	Digitizing maps
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a class="current" title="Geocoding spreadsheet data" href="https://ssimpkin.github.io/dhsite2018/geocoding-spreadsheets/">
+	
+	Geocoding spreadsheet data
+</a>
+
+
+<ul id="scrollspy">
+</ul>
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Joining datasets" href="https://ssimpkin.github.io/dhsite2018/joining-datasets/">
+	
+	Joining datasets
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Next steps" href="https://ssimpkin.github.io/dhsite2018/next-steps/">
+	
+	Next steps
+</a>
+
+
+
+  
+</li>
+
+
+        </ul>
+        
+
+        
+        <hr>
+        <span class="section">The author</span>
+        
+        <ul>
+          
+
+          
+
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+	</div>
+
+	<article class="article">
+		<div class="wrapper">
+			<h1>Geocoding spreadsheets </h1>
+
+			
+
+<h2 id="overview">Overview</h2>
+
+<p>Geographic clues can be hidden in all kinds of documents. In this exercise, we&rsquo;ll collect addresses from the 1890-1891 Ottawa Directory. Library and Archives Canada has digitized <a href="http://www.bac-lac.gc.ca/eng/discover/directories-collection/Pages/directories-collection.aspx">95 microfiche versions of pre-1901 Canadian directories</a>. These are useful resources for researching where people and businesses were located (and the ads are pretty cool too). The following exercise will require a Google account.</p>
+
+<p><img src="https://ssimpkin.github.io/dhsite2018/images/directory.jpg" alt="Image of directories" /></p>
+
+<h3 id="data-files">Data files</h3>
+
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/1ClP7IUjAIs50CLtJxRpy8zwd2PDYy0BmyDBGS8Uf00Q/edit?usp=sharing">Google Sheet with template</a></li>
+<li><a href="http://ssimpkin.github.io/dhsite2017/files/Directory_1890.pdf">PDF of the Ottawa Directory from 1890-1891</a></li>
+</ul>
+
+<h2 id="installing-the-geocoder-add-on">Installing the geocoder add-on</h2>
+
+<h2 id="adding-data-to-the-table">Adding data to the table</h2>
+
+<p>Make a copy of the <a href="https://docs.google.com/spreadsheets/d/1ClP7IUjAIs50CLtJxRpy8zwd2PDYy0BmyDBGS8Uf00Q/edit?usp=sharing">Google Sheets template</a> by clicking <code>File &gt; Make a copy</code>.</p>
+
+<p>Next, open the directory PDF and scroll to page 117. You&rsquo;ll see that I&rsquo;ve begun transcribing the information from the businesses along the north side of Rideau Street onto the spreadsheet.</p>
+
+<p>Each business is given its own line, and each piece of information about the business is given its own column.</p>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>As you can imagine, modern-day geocoders work best with modern-day address data (we may be pushing it a little). Watch out for renumbered and renamed streets if you attempt this process with historical data. Reference materials such as fire insurance plans can be useful for doing a quality check of historical addresses.</p>
+</div>
+
+<h2 id="exporting-a-csv-file">Exporting a CSV file</h2>
+
+<p>Export the completed table as a CSV file by clicking <code>File &gt; Download as &gt; Comma-separated values (.csv, current sheet)</code>. Save to your computer.</p>
+
+<h2 id="installing-geocoder-plug-in">Installing geocoder plug-in</h2>
+
+<p>You&rsquo;ll see that points have appeared along Rideau Street. The geocoder took a look at the street addresses and made a best guess about where they might go, based on modern-day data.</p>
+
+<p>You can imagine that the buildings and their numbers have likely undergone some major changes since 1890. Fortunately, we can import a reference image to help us quality check the point placements.</p>
+
+<h2 id="opening-fip">Opening FIP</h2>
+
+<p>Make any adjustments to the address points (sometimes addresses will be in the centres of modern-day buildings). Using the historical map as a reference, we can have a better idea of how each block looked closer to the time the directory was published.</p>
+
+<p>Once you&rsquo;re happy with the point placement,</p>
+
+<p>export instructions</p>
+
+
+			<aside class="copyright" role="note">
+				
+				Documentation built with
+				<a href="https://www.gohugo.io" target="_blank">Hugo</a>
+				using the
+				<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+			</aside>
+
+			<footer class="footer">
+				
+
+<nav class="pagination" aria-label="Footer">
+  <div class="previous">
+  
+      <a href="https://ssimpkin.github.io/dhsite2018/geospatial-data/" title="Geospatial data">
+        <span class="direction">
+          Previous
+        </span>
+        <div class="page">
+          <div class="button button-previous" role="button" aria-label="Previous">
+            <i class="icon icon-back"></i>
+          </div>
+          <div class="stretch">
+            <div class="title">
+              Geospatial data
+            </div>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+
+  <div class="next">
+  
+      <a href="https://ssimpkin.github.io/dhsite2018/digitizing-maps/" title="Digitizing maps">
+        <span class="direction">
+          Next
+        </span>
+        <div class="page">
+          <div class="stretch">
+            <div class="title">
+              Digitizing maps
+            </div>
+          </div>
+          <div class="button button-next" role="button" aria-label="Next">
+            <i class="icon icon-forward"></i>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+</nav>
+
+
+
+
+
+			</footer>
+		</div>
+	</article>
+
+	<div class="results" role="status" aria-live="polite">
+		<div class="scrollable">
+			<div class="wrapper">
+				<div class="meta"></div>
+				<div class="list"></div>
+			</div>
+		</div>
+	</div>
+</main>
+
+    <script>
+    
+      var base_url = '';
+      var repo_id  = '';
+    
+    </script>
+
+    <script src="https://ssimpkin.github.io/dhsite2018/javascripts/application.js"></script>
+    
+
+    <script>
+      /* Add headers to scrollspy */
+      var headers   = document.getElementsByTagName("h2");
+      var scrollspy = document.getElementById('scrollspy');
+
+      if(scrollspy) {
+        if(headers.length > 0) {
+          for(var i = 0; i < headers.length; i++) {
+            var li = document.createElement("li");
+            li.setAttribute("class", "anchor");
+
+            var a  = document.createElement("a");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", headers[i].innerHTML);
+            a.innerHTML = headers[i].innerHTML;
+
+            li.appendChild(a)
+            scrollspy.appendChild(li);
+          }
+        } else {
+          scrollspy.parentElement.removeChild(scrollspy)
+        }
+
+
+        /* Add permanent link next to the headers */
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for(var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link")
+            a.innerHTML = "#";
+            headers[i].appendChild(a);
+        }
+      }
+    </script>
+
+    
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+
