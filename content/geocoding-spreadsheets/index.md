@@ -1,6 +1,6 @@
 ---
 title: "Geocoding spreadsheets"
-weight: 40
+weight: 50
 ---
 
 ![Test gif](http://drive.google.com/uc?export=view&id=1Tr5m0VEKm9uNR5npuQvITpZHUWRJgCUR)

@@ -1,6 +1,6 @@
 ---
 title: "Next steps"
-weight: 80
+weight: 70
 ---
 
 ## Overview

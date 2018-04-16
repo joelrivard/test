@@ -1,6 +1,6 @@
 ---
 title: "Georeferencing maps"
-weight: 50
+weight: 30
 ---
 
 ## Overview

@@ -1,6 +1,6 @@
 ---
 title: "Digitizing maps"
-weight: 50
+weight: 40
 ---
 
 ## Overview

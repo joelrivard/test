@@ -52,33 +52,33 @@ publishDir = "docs"
 [[menu.main]]
 	name   = "Geospatial data"
 	url    = "geospatial-data/"
-	weight = 30
+	weight = 25
 
 [[menu.main]]
 	name   = "Georeferencing maps"
 	url    = "georeferencing-maps/"
-	weight = 40
+	weight = 30
 
 [[menu.main]]
 	name   = "Digitizing maps"
 	url    = "digitizing-maps/"
-	weight = 50
+	weight = 40
 
 
 [[menu.main]]
 	name   = "Geocoding spreadsheet data"
 	url    = "geocoding-spreadsheets/"
-	weight = 60
+	weight = 50
 
 [[menu.main]]
 	name   = "Joining datasets"
 	url    = "joining-datasets/"
-	weight = 70
+	weight = 60
 
 [[menu.main]]
 	name   = "Next steps"
 	url    = "next-steps/"
-	weight = 80
+	weight = 70
 
 
 [blackfriday]

@@ -1,6 +1,6 @@
 ---
 title: "Geospatial data"
-weight: 30
+weight: 25
 ---
 
 ## What is GIS?

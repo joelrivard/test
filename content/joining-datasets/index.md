@@ -1,6 +1,6 @@
 ---
 title: "Joining datasets"
-weight: 70
+weight: 60
 ---
 
 ## Overview
