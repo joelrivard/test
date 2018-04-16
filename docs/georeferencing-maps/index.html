@@ -332,41 +332,67 @@
 <h3 id="data-files">Data files</h3>
 
 <ul>
-<li><a href="http://ssimpkin.github.io/dhsite2017/files/georectify/FireInsurancePlan_1901.zip">1901 Fire Insurance Plan of Ottawa</a>. Each person has been assigned a page of the 1901 Fire Insurance Plan of Ottawa.</li>
-<li>Ottawa roads vector shapefile</li>
+<li><a href="https://drive.google.com/open?id=1JITpaNCJqIFHrd1aKkMq6IV2OUC3bEuy">1901 Fire Insurance Plan of Ottawa</a>. Each person has been assigned a page of the 1901 Fire Insurance Plan of Ottawa.</li>
+<li><a href="https://drive.google.com/open?id=1JITpaNCJqIFHrd1aKkMq6IV2OUC3bEuy">Ottawa roads vector shapefile</a></li>
 </ul>
+
+<p>Download these files to a folder on your computer before proceeding.</p>
 
 <h2 id="adding-reference-data">Adding reference data</h2>
 
-<p>We will use modern road data to guide us as we align our fire insurance plan.</p>
+<p>We will use modern road data to guide us as we align our fire insurance plan. Open QGIS and load the OttawaRoads.shp file found within your OttawaRoads directory by clicking <code>Layer &gt; Add Layer &gt; Add Vector Layer</code>.</p>
+
+<p><img src="http://drive.google.com/uc?export=view&amp;id=1k6BWGyDnjRkNtVz5s7NISK0Fx5TdHVWv" alt="Add vector layer" /></p>
 
 <h2 id="checking-the-coordinate-system">Checking the coordinate system</h2>
 
-<p>Check which real-world coordinate system is used for the Ottawa roads shapefile. You’ll notice that the coordinate system is set to <a href="http://spatialreference.org/ref/epsg/2951/">epsg: 2951</a>.</p>
+<p>Check which real-world coordinate system is used for the Ottawa roads shapefile. You’ll notice that the coordinate system is set to <a href="http://spatialreference.org/ref/epsg/4326/">epsg: 4326</a>.</p>
+
+<p><strong>Insert gif here</strong></p>
 
 <h2 id="changing-the-appearance-of-the-road-data">Changing the appearance of the road data</h2>
 
-<p>In order to better see the roads and orient ourselves, we&rsquo;ll change the colour of the road layer and add labels.</p>
+<p>In order to better see the roads and orient ourselves, we&rsquo;ll change the colour of the road layer.</p>
+
+<p><img src="http://drive.google.com/uc?export=view&amp;id=16gjYLLl4z6XzJ4XZqe2DkFoBDT4DQvQ7" alt="Change colour" /></p>
+
+<p>Then, we&rsquo;ll add labels to identify the street names.</p>
+
+<p><img src="http://drive.google.com/uc?export=view&amp;id=10iXtLXQZeE4oDDAMaRyBUHTZvf31zVF6" alt="Add labels" /></p>
 
 <h2 id="adding-the-georeferencer-gdal-plug-in">Adding the Georeferencer GDAL plug-in</h2>
 
-<p>To do the georeferencing, we’ll need to add the Georeferencer GDAL plug-in to QGIS. Once the plug-in has been added, we can open the Georeferencer tool and the fire insurance plan raster file.</p>
+<p>To do the georeferencing, we’ll need to add the Georeferencer GDAL plug-in to QGIS.</p>
+
+<p><img src="http://drive.google.com/uc?export=view&amp;id=18iDKdghtqlukP5bKBpDhsIckD_62JDb-" alt="Add GDAL plug-in" /></p>
+
+<p>Once the plug-in has been added, we can open the Georeferencer tool and the fire insurance plan raster file.</p>
+
+<p><img src="http://drive.google.com/uc?export=view&amp;id=1nISIqkfUGIiuoaotvE7fD10zY2spNRR7" alt="COpen Georeferencer tool" /></p>
 
 <h2 id="configuring-the-raster-settings">Configuring the raster settings</h2>
 
 <p>Before moving forward, we’ll have to set the proper raster settings for our raster. In some cases, a scanned map may have been created in a particular coordinate system. This is where we would put the information. In our case, the Fire Insurance Plan doesn’t have a known coordinate system. Let’s just set it to the generic WGS84.</p>
 
+<p><img src="http://drive.google.com/uc?export=view&amp;id=1tshsgoX9anoRGYTUuCyP12gzZTnrlIPW" alt="Change raster settings" /></p>
+
 <h2 id="adding-control-points">Adding control points</h2>
 
 <p>We’ll add control points to perform our georeferencing. Control points will be used to assign known coordinates to our raster. In this case, we’ll add control points to all of the intersections of our fire insurance plans.</p>
+
+<p><img src="http://drive.google.com/uc?export=view&amp;id=1P8rNCX8DWIIMRfVVtsatBORKhG7XPQzt" alt="Add control points" /></p>
 
 <h2 id="transformation-settings">Transformation settings</h2>
 
 <p>Once we’ve added our points, we’ll set the transformation settings. We set the target SRS to match our reference data (epsg:2951, it matches our Ottawa roads) and check off Use 0 for transparency when needed to ensure that our output image is transparent. Also, selecting  Load in QGIS when done will automatically add the image to QGIS once the georeferencing is complete.</p>
 
+<p><strong>Transformation settings GIF here</strong></p>
+
 <h2 id="running-the-georeferencing-tool">Running the georeferencing tool</h2>
 
 <p>The last step consists of running the georeferencing tool and viewing our output in QGIS.</p>
+
+<p><img src="http://drive.google.com/uc?export=view&amp;id=1nt8I3RsgksV_GqE0kbOOgG7lwdCjj-VY" alt="Run georeferencing tool" /></p>
 
 
 			<aside class="copyright" role="note">
