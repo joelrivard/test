@@ -11,7 +11,7 @@ In QGIS, we’ll trace polygons to represent the buildings from the fire insuran
 
 We’ll have to create a blank shapefile and set the appropriate coordinate system. In this case, we’ll set the coordinate system to the same one that we’ve been using thus far, epsg:2951.
 
-** Insert CreateNewShapefile.gif **
+![Create new shapefile](http://drive.google.com/uc?export=view&id=1LDZGCdHNHICO4su5RdCmYFnbF5Z7vBTC)
 
 While creating the new shapefile, we’ll include several fields so that we collect different bits of information for each polygon. 
 

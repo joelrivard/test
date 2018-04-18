@@ -26,7 +26,7 @@ We will use modern road data to guide us as we align our fire insurance plan. Op
 
 Check which real-world coordinate system is used for the Ottawa roads shapefile. You’ll notice that the coordinate system is set to [epsg: 4326](http://spatialreference.org/ref/epsg/4326/).
 
-**Insert gif here**
+![Check coordinate system](http://drive.google.com/uc?export=view&id=1dV0yBoeuRU8wx91y4wNygmq6MqtfgO9b)
 
 ## Changing the appearance of the road data
 
@@ -46,7 +46,7 @@ To do the georeferencing, we’ll need to add the Georeferencer GDAL plug-in to 
 
 Once the plug-in has been added, we can open the Georeferencer tool and the fire insurance plan raster file.
 
-![COpen Georeferencer tool](http://drive.google.com/uc?export=view&id=1nISIqkfUGIiuoaotvE7fD10zY2spNRR7)
+![Open Georeferencer tool](http://drive.google.com/uc?export=view&id=1nISIqkfUGIiuoaotvE7fD10zY2spNRR7)
 
 ## Configuring the raster settings
 
@@ -64,7 +64,7 @@ We’ll add control points to perform our georeferencing. Control points will be
 
 Once we’ve added our points, we’ll set the transformation settings. We set the target SRS to match our reference data (epsg:2951, it matches our Ottawa roads) and check off Use 0 for transparency when needed to ensure that our output image is transparent. Also, selecting  Load in QGIS when done will automatically add the image to QGIS once the georeferencing is complete.
 
-**Transformation settings GIF here**
+![Transformation settings](http://drive.google.com/uc?export=view&id=1Tr5m0VEKm9uNR5npuQvITpZHUWRJgCUR)
 
 ## Running the georeferencing tool
 

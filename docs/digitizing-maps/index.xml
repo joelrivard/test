@@ -18,7 +18,6 @@
       <guid>https://ssimpkin.github.io/dhsite2018/digitizing-maps/</guid>
       <description>Overview In QGIS, we’ll trace polygons to represent the buildings from the fire insurance plans and add additional attribute information to them in order to enrich our dataset.
 Creating a new shapefile We’ll have to create a blank shapefile and set the appropriate coordinate system. In this case, we’ll set the coordinate system to the same one that we’ve been using thus far, epsg:2951.
-** Insert CreateNewShapefile.gif **
 While creating the new shapefile, we’ll include several fields so that we collect different bits of information for each polygon.</description>
     </item>
     
