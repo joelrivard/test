@@ -3,8 +3,6 @@ title: "Geocoding spreadsheets"
 weight: 50
 ---
 
-![Test gif](http://drive.google.com/uc?export=view&id=1Tr5m0VEKm9uNR5npuQvITpZHUWRJgCUR)
-
 ## Overview
 
 Geographic clues can be hidden in all kinds of documents. In this exercise, we'll collect addresses from the 1890-1891 Ottawa Directory. Library and Archives Canada has digitized [95 microfiche versions of pre-1901 Canadian directories](http://www.bac-lac.gc.ca/eng/discover/directories-collection/Pages/directories-collection.aspx). These are useful resources for researching where people and businesses were located (and the ads are pretty cool too). The following exercise will require a Google account.
