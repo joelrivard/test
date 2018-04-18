@@ -16,7 +16,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ssimpkin.github.io/dhsite2018/joining-datasets/</guid>
-      <description> Overview </description>
+      <description>Spatial join A spatial join will merge attribute information from two shapefiles into one based on its location. In this case, we’ll merge the information from the city directory points to our digitized buildings polygon file.
+These are images, not animated gifs. They are here to show the original and output tables.
+In QGIS, open the Spatial Join tool from the MMQGIS menu.
+Select buildings at the output shape and the city directory as the Join Layer.</description>
     </item>
     
   </channel>
