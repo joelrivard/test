@@ -9,7 +9,7 @@ In QGIS, we’ll trace polygons to represent the buildings from the fire insuran
 
 ## Creating a new shapefile
 
-We’ll have to create a blank shapefile and set the appropriate coordinate system. In this case, we’ll set the coordinate system to the same one that we’ve been using thus far, epsg:2951.
+We’ll have to create a blank shapefile and set the appropriate coordinate system. In this case, we’ll set the coordinate system to the same one that we’ve been using thus far, epsg:4326.
 
 ![Create new shapefile](http://drive.google.com/uc?export=view&id=1LDZGCdHNHICO4su5RdCmYFnbF5Z7vBTC)
 
@@ -41,6 +41,6 @@ Repeat the steps for each polygon feature that you want to add.
 
 ## Saving the feature
 
-To save the feature, click on the toggle edit tool and select save. You may want to do this after adding several polygons.
+To save the feature, click on the toggle edit tool and select save. **IMPORTANT: You may want to do this after adding several polygons.**
 
 ![Save edits](http://drive.google.com/uc?export=view&id=1v4y41uM0aIjJNfqVItinYCPGmzx9-poC)

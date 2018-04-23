@@ -17,7 +17,7 @@
       
       <guid>https://ssimpkin.github.io/dhsite2018/georeferencing-maps/</guid>
       <description>Overview Existing maps, floorplans and imagery are a useful source of data. They can provide information about changes over time, landcover, settlement patterns, and more.
-Georeferencing is the process of assigning real-world coordinates to each pixel of the raster. To do this, we’ll use the Ottawa roads file that we downloaded from the Ottawa open data website.
+Georeferencing is the process of assigning real-world coordinates to each pixel of the raster. In this case, we&amp;rsquo;ll use the Ottawa roads file to define our real-world coordinates.
 Data files  1901 Fire Insurance Plan of Ottawa. Each person has been assigned a page of the 1901 Fire Insurance Plan of Ottawa.</description>
     </item>
     

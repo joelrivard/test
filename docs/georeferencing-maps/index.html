@@ -327,7 +327,7 @@
 
 <p>Existing maps, floorplans and imagery are a useful source of data. They can provide information about changes over time, landcover, settlement patterns, and more.</p>
 
-<p>Georeferencing is the process of assigning real-world coordinates to each pixel of the raster. To do this, we’ll use the Ottawa roads file that we downloaded from the Ottawa open data website.</p>
+<p>Georeferencing is the process of assigning real-world coordinates to each pixel of the raster. In this case, we&rsquo;ll use the Ottawa roads file to define our real-world coordinates.</p>
 
 <h3 id="data-files">Data files</h3>
 
@@ -352,7 +352,7 @@
 
 <h2 id="changing-the-appearance-of-the-road-data">Changing the appearance of the road data</h2>
 
-<p>In order to better see the roads and orient ourselves, we&rsquo;ll change the colour of the road layer.</p>
+<p>In order to better see the roads and orient ourselves, we&rsquo;ll change the colour of the road layer by viewing the properties of the shapefile.</p>
 
 <p><img src="http://drive.google.com/uc?export=view&amp;id=16gjYLLl4z6XzJ4XZqe2DkFoBDT4DQvQ7" alt="Change colour" /></p>
 
@@ -362,7 +362,7 @@
 
 <h2 id="adding-the-georeferencer-gdal-plug-in">Adding the Georeferencer GDAL plug-in</h2>
 
-<p>To do the georeferencing, we’ll need to add the Georeferencer GDAL plug-in to QGIS.</p>
+<p>To do the georeferencing, we’ll need to add the Georeferencer GDAL plug-in tool to QGIS.</p>
 
 <p><img src="http://drive.google.com/uc?export=view&amp;id=18iDKdghtqlukP5bKBpDhsIckD_62JDb-" alt="Add GDAL plug-in" /></p>
 
@@ -372,7 +372,7 @@
 
 <h2 id="configuring-the-raster-settings">Configuring the raster settings</h2>
 
-<p>Before moving forward, we’ll have to set the proper raster settings for our raster. In some cases, a scanned map may have been created in a particular coordinate system. This is where we would put the information. In our case, the Fire Insurance Plan doesn’t have a known coordinate system. Let’s just set it to the generic WGS84.</p>
+<p>Before moving forward, we’ll have to set the proper raster settings for our raster. In some cases, a scanned map may have been created in a particular coordinate system. The coordinate system information for the original document would be set in the raster settings. In our case, the Fire Insurance Plan doesn’t have a known coordinate system. Let’s set it to the generic WGS84 epsg:4326.</p>
 
 <p><img src="http://drive.google.com/uc?export=view&amp;id=1tshsgoX9anoRGYTUuCyP12gzZTnrlIPW" alt="Change raster settings" /></p>
 
@@ -384,7 +384,7 @@
 
 <h2 id="transformation-settings">Transformation settings</h2>
 
-<p>Once we’ve added our points, we’ll set the transformation settings. We set the target SRS to match our reference data (epsg:2951, it matches our Ottawa roads) and check off Use 0 for transparency when needed to ensure that our output image is transparent. Also, selecting  Load in QGIS when done will automatically add the image to QGIS once the georeferencing is complete.</p>
+<p>Once we’ve added our points, we’ll set the transformation settings. We set the target SRS to match our reference data (epsg:4326, it matches our Ottawa roads) and check off Use 0 for transparency when needed to ensure that our output image is transparent. Also, selecting  Load in QGIS when done will automatically add the image to QGIS once the georeferencing is complete.</p>
 
 <p><img src="http://drive.google.com/uc?export=view&amp;id=1Tr5m0VEKm9uNR5npuQvITpZHUWRJgCUR" alt="Transformation settings" /></p>
 

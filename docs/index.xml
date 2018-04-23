@@ -49,7 +49,7 @@ Vector data consists of points, lines and polygons, and is most commonly used to
       
       <guid>https://ssimpkin.github.io/dhsite2018/georeferencing-maps/</guid>
       <description>Overview Existing maps, floorplans and imagery are a useful source of data. They can provide information about changes over time, landcover, settlement patterns, and more.
-Georeferencing is the process of assigning real-world coordinates to each pixel of the raster. To do this, we’ll use the Ottawa roads file that we downloaded from the Ottawa open data website.
+Georeferencing is the process of assigning real-world coordinates to each pixel of the raster. In this case, we&amp;rsquo;ll use the Ottawa roads file to define our real-world coordinates.
 Data files  1901 Fire Insurance Plan of Ottawa. Each person has been assigned a page of the 1901 Fire Insurance Plan of Ottawa.</description>
     </item>
     
@@ -60,7 +60,7 @@ Data files  1901 Fire Insurance Plan of Ottawa. Each person has been assigned a 
       
       <guid>https://ssimpkin.github.io/dhsite2018/digitizing-maps/</guid>
       <description>Overview In QGIS, we’ll trace polygons to represent the buildings from the fire insurance plans and add additional attribute information to them in order to enrich our dataset.
-Creating a new shapefile We’ll have to create a blank shapefile and set the appropriate coordinate system. In this case, we’ll set the coordinate system to the same one that we’ve been using thus far, epsg:2951.
+Creating a new shapefile We’ll have to create a blank shapefile and set the appropriate coordinate system. In this case, we’ll set the coordinate system to the same one that we’ve been using thus far, epsg:4326.
 While creating the new shapefile, we’ll include several fields so that we collect different bits of information for each polygon.</description>
     </item>
     
@@ -83,7 +83,7 @@ Data files  Google Sheet with template PDF of the Ottawa Directory from 1890-189
       <description>Spatial join A spatial join will merge attribute information from two shapefiles into one based on its location. In this case, we’ll merge the information from the city directory points to our digitized buildings polygon file.
 These are images, not animated gifs. They are here to show the original and output tables.
 In QGIS, open the Spatial Join tool from the MMQGIS menu.
-Select buildings at the output shape and the city directory as the Join Layer.</description>
+Select buildings as the output shape and the city directory as the join layer.</description>
     </item>
     
     <item>
