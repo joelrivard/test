@@ -13,6 +13,7 @@ Georeferencing is the process of assigning real-world coordinates to each pixel 
 ### Data files
 * [1901 Fire Insurance Plan of Ottawa](https://drive.google.com/open?id=1JITpaNCJqIFHrd1aKkMq6IV2OUC3bEuy). Each person has been assigned a page of the 1901 Fire Insurance Plan of Ottawa.
 * [Ottawa roads vector shapefile](https://drive.google.com/open?id=1JITpaNCJqIFHrd1aKkMq6IV2OUC3bEuy)
+* [Fire Insurance Plan assignments](https://docs.google.com/spreadsheets/d/1JVatlhgHpQY42lRLGSl-G6q8iSw5YqkRkyV3QzxmvjM/edit?usp=sharing)
 
 Download these files to a folder on your computer before proceeding. 
 
