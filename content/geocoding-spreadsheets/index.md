@@ -10,7 +10,7 @@ Geographic clues can be hidden in all kinds of documents. In this exercise, we'l
 ![Image of directories](/images/directory.jpg)
 
 ### Data files
-* [Google Sheet with template](https://docs.google.com/spreadsheets/d/1ClP7IUjAIs50CLtJxRpy8zwd2PDYy0BmyDBGS8Uf00Q/edit?usp=sharing)
+* [Google Sheet with template](https://docs.google.com/spreadsheets/d/1YOba-Bb9S_6Gr68zSujqmbtTF-mPrqSJuUG85aIXzrU/edit?usp=sharing)
 * [PDF of the Ottawa Directory from 1890-1891](http://ssimpkin.github.io/dhsite2017/files/Directory_1890.pdf)
 
 
