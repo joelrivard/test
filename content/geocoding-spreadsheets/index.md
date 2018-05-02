@@ -13,11 +13,6 @@ Geographic clues can be hidden in all kinds of documents. In this exercise, we'l
 * [Google Sheet with template](https://docs.google.com/spreadsheets/d/1YOba-Bb9S_6Gr68zSujqmbtTF-mPrqSJuUG85aIXzrU/edit?usp=sharing)
 * [PDF of the Ottawa Directory from 1890-1891](http://ssimpkin.github.io/dhsite2017/files/Directory_1890.pdf)
 
-
-## Installing the geocoder add-on
-
-
-
 ## Adding data to the table
 
 Make a copy of the [Google Sheets template](https://docs.google.com/spreadsheets/d/1YOba-Bb9S_6Gr68zSujqmbtTF-mPrqSJuUG85aIXzrU/edit?usp=sharing) by clicking ```File > Make a copy```.
