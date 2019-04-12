@@ -1,4 +1,4 @@
-baseurl = "https://ssimpkin.github.io/dhsite2018/"
+baseurl = "http://joelrivard.github.io/dhsite2019/"
 languageCode = "en-us"
 title = "Introduction to mapping and spatial methods for the humanities"
 theme = "hugo-material-docs"
@@ -11,7 +11,7 @@ publishDir = "docs"
 [params]
 	# General information
 	author = "Sarah Simpkin and Joel Rivard"
-	description = "Tutorial designed for DHSITE 2018 in Ottawa."
+	description = "Tutorial designed for DHSITE 2019 in Ottawa."
 
 	permalink = "#"
 
